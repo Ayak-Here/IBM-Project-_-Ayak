@@ -1,7 +1,7 @@
 const XMLHttpRequest = require("xmlhttprequest").XMLHttpRequest;
 
 // NOTE: you must manually enter your API_KEY below using information retrieved from your IBM Cloud account (https://dataplatform.cloud.ibm.com/docs/content/wsj/analyze-data/ml-authentication.html?context=cpdaas)
-const API_KEY = "<your API key>";
+const API_KEY = "cpd-apikey-IBMid-6930012ZTC-2025-08-23T18:34:42Z";
 
 const req = new XMLHttpRequest();
 const oReq = new XMLHttpRequest();
@@ -55,4 +55,5 @@ getToken((err) => console.log("An error occurred submitting the request."), () =
 	}, function (error) {
 		console.log(error);
 	});
+
 });
